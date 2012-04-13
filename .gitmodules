@@ -108,3 +108,6 @@
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
+[submodule "syntastic"]
+	path = syntastic
+	url = git://github.com/scrooloose/syntastic.git
