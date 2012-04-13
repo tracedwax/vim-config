@@ -2,10 +2,16 @@
 
 (Re)move ~/.vim and ~/.vimrc if you have them already, and run:
 
-    git clone git@github.com:pivotal/vim-config.git ~/.vim
+    git clone git@github.com:tracedwax/vim-config.git ~/.vim
     cd ~/.vim
     git submodule update --init
     ln -s ~/.vim/vimrc ~/.vimrc
+    
+# Compile command-t
+    rvm system #ensure build on Ruby 1.8.7 if using RVM
+    cd ~/.vim/bundle/command-t
+    bundle
+    rake make
 
 # Updating
 
