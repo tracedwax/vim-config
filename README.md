@@ -1,6 +1,10 @@
 # To Install
 
-(Re)move ~/.vim and ~/.vimrc if you have them already, and run:
+(Re)move ~/.vim and ~/.vimrc if you have them already. To keep your existing vimrc settings, append '.local'.
+
+    mv ~/.vimrc ~/.vimrc.local
+
+Now run:
 
     git clone git@github.com:tracedwax/vim-config.git ~/.vim
     cd ~/.vim
